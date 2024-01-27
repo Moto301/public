@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* Other body styles */
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('BACKGROUND.png');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #333;
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  min-height: 100vh; /* Full height of viewport */
+  display: flex;
+  flex-direction: column;
+}
+  .top-banner {
+    position: fixed;
+    top: 15;
+    left: 50;
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height as needed */
+    background-image: url('topbanner.png');
+    background-size: cover;
+    background-position: center; 
+  }  
+
+
+/* Hero Banner Styles */
+.hero-banner {
+  background-image: url('topbanner.png'); /* Add your image here */
+  position: fixed; /* Fix position */
+  top: 0; /* Align to top */
+  left: 0; /* Align to left */
+  width: 100%; /* Full width */
+  z-index: 10; /* Ensure it's above other elements */
+  /* other existing styles */
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scroll thumb */
+  border-radius: 10px; /* Roundness of the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scroll thumb when hovered */
+}
+
+/* Header Styles */
+header {
+  text-align: center; /* Center text */
+  padding: 10px 0; /* Adjust padding as needed */
+  background-image: url('topbanner.png'); /* Header background image */
+}
+
+/* Navigation Link Styles */
+nav {
+  display: flex;
+  justify-content: center; /* Center navigation items */
+}
+
+nav a {
+  color: #333; /* Text color for nav items */
+  text-decoration: none;
+  margin: 0 10px; /* Space between nav items */
+}
+
+nav a:hover {
+  color: #d92128; /* Custom hover color */
+}
+
+/* Form and Container Styles */
+.container {
+  background-color: transparent;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  flex-grow: 1; /* Allows the container to grow */
+}
+
+/* Footer Styles */
+.footer {
+  position: absolute; /* Fix position */
+  align-content: center;
+  bottom: 0; /* Align to bottom */
+  width: 100%; /* Full width */
+  /* other existing styles */
+}
+.footer p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
