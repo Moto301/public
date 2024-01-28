@@ -61,7 +61,7 @@
     background: url('footer.png') no-repeat center center; 
     background-size: 100%; /* Adjust as needed */
     padding: 150px;
-    bottom: -20;   
+    bottom: 0;   
     text-align: center;
     color: white;
 }
